@@ -1,0 +1,174 @@
+{
+	"components": {
+		"x-902337-color-picker" : {
+			"innerComponents" : [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Aespa 카리나 이쁘당",
+				"icon": "document-outline",
+				"description": "A description of my component",
+				"category": "primitives"
+			}
+		},
+		"x-902337-color-text" : {
+			"innerComponents" : [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "ACME Color Text44",
+				"icon": "gem-outline",
+				"description": "Text Awscomemd",
+				"category": "primitives"
+			},
+			"properties": [
+				{
+					"name" : "text",
+					"label" : "Text",
+					"fieldType" : "string"
+				},
+				{
+					"name" : "color",
+					"label" : "Color",
+					"fieldType" : "string"
+				}
+			]
+		},
+
+		"x-902337-movie-quotes": {
+	        "innerComponents": [
+				"example-checklist-item"
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "HEllo 우리 팀장님 잘생긴 Component",
+				"icon": "document-outline",
+				"description": "A description of my component",
+				"category": "primitives"
+			}
+	    },
+		"x-902337-example-agent-assist" : {
+			"innerComponents": [
+				"now-icon",
+				"now-loader",
+				"now-heading"
+			]
+		},
+	    "x-902337-example-customer-360": {
+			"uiBuilder": {
+				"label": "customer-360-1",
+				"icon": "list-fill",
+				"description": "Logged in users can manage their tasks",
+				"category": "primitives",
+				"associatedTypes": [
+					"global.core"
+				]
+			},
+			"innerComponents": [
+				"now-avatar",
+				"now-icon",
+				"now-label-value-stacked",
+				"now-label-value-inline",
+				"now-heading"
+			],
+			"properties": [
+				{
+				  "name": "table",
+				  "label": "table",
+				  "description": "Name of the table to pick caller from",
+				  "readOnly": false,
+				  "fieldType": "table_name",
+				  "required": true,
+				  "defaultValue": "incident",
+				  "typeMetadata": {}
+				},
+				{
+				  "name": "sysId",
+				  "label": "sysId",
+				  "description": "The unique identifier for the record",
+				  "readOnly": false,
+				  "fieldType": "string",
+				  "required": true,
+				  "defaultValue": "85071a1347c12200e0ef563dbb9a71c1",
+				  "typeMetadata": {}
+				}
+			]
+		},
+		"x-902337-example-checklist" : {
+			"uiBuilder": {
+				"label": "Checklist",
+				"icon": "list-fill",
+				"description": "Logged in users can manage their tasks",
+				"category": "primitives",
+				"associatedTypes": [
+					"global.core"
+				]
+			},
+			"properties" : [
+				{
+					"name" : "text",
+					"label" : "Text",
+					"fieldType" : "string"
+				},
+				{
+					"name" : "color",
+					"label" : "Color",
+					"fieldType" : "string"
+				}
+			],
+	        "innerComponents": [
+				"now-heading",
+				"now-loader",
+				"now-button",
+				"now-toggle",
+				"example-checklist-item",
+				"now-label-value-inline",
+				"now-button-iconic"
+			]
+		},
+		"x-902337-searchable-dropdown": {
+			"innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "My Component123123123",
+				"icon": "document-outline",
+				"description": "A description of my componentaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+				"category": "primitives"
+			}
+		},
+		"x-902337-my-new-component": {
+			"innerComponents": [],
+			"uiBuilder": {
+			"associatedTypes": ["global.core", "global.landing-page"],
+			"label": "AA test",
+			"icon": "document-outline",
+			"description": "A description of my component",
+			"category": "primitives"
+			},
+			"properties" : [
+				{
+					"name": "table",
+					"label": "table",
+					"description": "Name of the table to pick caller from",
+					"readOnly": false,
+					"fieldType": "table_name",
+					"required": true,
+					"defaultValue": "incident",
+					"typeMetadata": {}
+				  },
+				  {
+					"name": "sysId",
+					"label": "sysId",
+					"description": "The unique identifier for the record",
+					"readOnly": false,
+					"fieldType": "string",
+					"required": true,
+					"defaultValue": "85071a1347c12200e0ef563dbb9a71c1",
+					"typeMetadata": {}
+				  }
+			]
+		}
+		
+
+	},
+	
+	"scopeName": "x_902337_lhyunse_0"
+}
